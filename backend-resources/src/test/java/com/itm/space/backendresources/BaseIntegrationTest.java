@@ -34,4 +34,5 @@ public abstract class BaseIntegrationTest {
                                                                Object content) throws JsonProcessingException {
         return requestToJson(requestBuilder).content(contentWriter.writeValueAsString(content));
     }
+
 }
